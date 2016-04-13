@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Folha de Pedidos</string>
+    <string name="activity_add_name">Adicionar Produto</string>
+    <string name="activity_criar_name">Criar Pedido</string>
+    <string name="activity_ver_name">Pedidos</string>
+    <string name="add">Adcionar Produto</string>
+    <string name="criar_pedido">Criar Pedido</string>
+    <string name="ver_pedido">Ver Pedidos</string>
+    <string name="digite">Digite o Nome do Produto</string>
+    <string name="adcionar">Adicinoar</string>
+</resources>

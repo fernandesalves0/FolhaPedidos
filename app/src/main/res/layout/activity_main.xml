@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="casa.artesanato.folhadepedidos.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecione a opção desejada"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:autoText="false"
+        android:clickable="false"
+        android:textColor="#e2000000"
+        android:textSize="@dimen/abc_dialog_padding_material" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        android:id="@+id/button_add"
+        android:typeface="monospace"
+        android:layout_above="@+id/button_criar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:textColor="#e2000000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/criar_pedido"
+        android:id="@+id/button_criar"
+        android:typeface="monospace"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#e2000000"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ver_pedido"
+        android:id="@+id/button_ver"
+        android:typeface="monospace"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/button_criar"
+        android:layout_centerHorizontal="true"
+        android:textColor="#e2000000"/>
+</RelativeLayout>
